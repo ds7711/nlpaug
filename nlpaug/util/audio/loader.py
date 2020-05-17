@@ -1,6 +1,6 @@
 try:
     import librosa
-except ImportError:
+except ImportError or OSError:
     # No installation required if not using this function
     pass
 
